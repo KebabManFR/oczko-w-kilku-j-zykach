@@ -34,14 +34,14 @@ Sub dajKarteGraczu()
     Dim karta
     karta = LosujKarte()
     graczP = graczP + karta
-    MsgBox "Otrzymales karte o wartosci " & karta & " (Suma punktów: " & graczP & ")", vbOKOnly, "Oczko"
+    MsgBox "Otrzymales karte o wartosci " & karta & " (Suma punktow: " & graczP & ")", vbOKOnly, "Oczko"
 End Sub
 
 Sub dajKartePrzeciwnikowi()
     Dim karta
     karta = LosujKarte()
     przeciwnikP = przeciwnikP + karta
-    MsgBox "Przeciwnik otrzymal karte o wartosci " & karta & " (Suma punktów: " & przeciwnikP & ")", vbOKOnly, "Oczko"
+    MsgBox "Przeciwnik otrzymal karte o wartosci " & karta & " (Suma punktow: " & przeciwnikP & ")", vbOKOnly, "Oczko"
 End Sub
 
 MsgBox "Witamy w oczku!", vbOKOnly, "Oczko"
